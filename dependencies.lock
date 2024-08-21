@@ -1,0 +1,23 @@
+dependencies:
+  LED:
+    component_hash: 688592a85d2ffacc14886881871d68c821fd5136f530da228e0bbf6786b8d511
+    source:
+      git: https://github.com/AnchisaPhetnoi/ESP32-LED-Component.git
+      path: components/LED
+      type: git
+    version: 37c785c3251593d554dfeee557d01159b8864081
+  SEVENSGMENT:
+    component_hash: 56ed1f69b25fbf516eb7c595757f82819ad45cdeef191b824e00f2cbbe1546d6
+    source:
+      git: https://github.com/AnchisaPhetnoi/Lab-07-Seven-segment-Component-develope.git
+      path: components/SevenSegment
+      type: git
+    version: e67b7d188c21c578ed40fc620affc9c5d2ecf88f
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.2.2
+manifest_hash: 4f331360166d98963e0020ed6ef3be89136712335ff2bd0b822673c2d8163a25
+target: esp32
+version: 1.0.0
